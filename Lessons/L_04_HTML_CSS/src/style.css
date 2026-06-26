@@ -1,0 +1,40 @@
+p {
+    background-color: #29575a;
+}
+
+#p2 {
+    background-color: bisque;
+    font-weight: bold;
+}
+
+#p1 {
+    color: #d6d6d6;
+}
+
+p {
+    background-color: darkred;
+}
+
+#p2 {
+    font-style: italic;
+}
+
+h2 {
+    background-color: orange;
+}
+
+.box1 {
+    border: 3px solid black;
+}
+
+.big {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+* {
+    text-align: center;
+}

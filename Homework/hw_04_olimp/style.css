@@ -1,12 +1,15 @@
 * {
     margin: auto;
 }
+div {
+    text-align: center;
+}
 
 .ring {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 10px solid black;
+    border: 12px solid black;
     display: inline-block;
     margin: 5px;
 }
@@ -38,6 +41,5 @@
 
 #row2 {
     margin-top: -80px;
-    padding-left: 85px;
 }
 

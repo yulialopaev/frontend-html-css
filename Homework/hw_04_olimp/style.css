@@ -1,0 +1,43 @@
+* {
+    margin: auto;
+}
+
+.ring {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+
+#blue {
+    border-color: #0078c8;
+
+}
+
+#black {
+    border-color: #000000;
+}
+
+#red {
+    border-color: #eb334e;
+}
+
+#yellow {
+    border-color: #fcb131;
+}
+
+#green {
+    border-color: #00a651;
+}
+
+#row1 {
+    margin-bottom: -90px;
+}
+
+#row2 {
+    margin-top: -80px;
+    padding-left: 85px;
+}
+

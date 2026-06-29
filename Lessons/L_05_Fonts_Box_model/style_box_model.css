@@ -1,0 +1,32 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.outer1 {
+    height: 200px;
+    background-color: #0078c8;
+    /*padding-top: 20px;*/
+    /*padding-left: 20px;*/
+    /*padding-right: 40px;*/
+    margin-bottom: 10px;
+    /*padding: 1px;*/
+    /*border: 1px solid black;*/
+    border: 1px solid transparent;
+}
+
+.outer2 {
+    height: 200px;
+    background-color: #00a651;
+    /*padding: 50px*/
+    /*margin-top: 10px;*/
+    width: 50%;
+    margin: 10px auto;
+}
+
+.inner1 {
+    height: 100px;
+    background-color: #eb334e;
+    width: 75%;
+    margin: 10px auto;
+}

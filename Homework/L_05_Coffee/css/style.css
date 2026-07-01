@@ -16,19 +16,16 @@ h1 {
 }
 
 h2 {
-    font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 22px;
 }
 
 p {
-    font-family: "Quicksand", sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
 
 a {
-    font-family: "Quicksand", sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
@@ -42,10 +39,8 @@ img {
     /*margin-top: -375px;*/
 }
 
-.header {
-}
-
 .main {
     background-color: #ededed;
+    font-family: "Quicksand", sans-serif;
 }
 

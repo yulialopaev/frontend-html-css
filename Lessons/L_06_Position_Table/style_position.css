@@ -1,0 +1,54 @@
+body {
+    background-color: bisque;
+}
+
+.header, .footer {
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: violet;
+    /*z-index: 10;*/
+}
+
+.footer {
+    background-color: darkgoldenrod;
+    position: fixed;
+    bottom: 0;
+}
+
+.main {
+    background-color: crimson;
+    height: 1200px;
+}
+
+
+.main > div {
+    height: 100px;
+    width: 60%;
+    /*display: inline;*/
+    display: inline-block;
+    font-size: 50px;
+}
+
+.div1 {
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 100px;
+    /*z-index: 100;*/
+}
+
+.div2 {
+    background-color: blue;
+    /*margin-left: -5px;*/
+    /*margin-right: -5px;*/
+    z-index: 200;
+}
+
+.div3 {
+    background-color: lightgreen;
+}
+

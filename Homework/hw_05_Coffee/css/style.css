@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 388px;
+    background-size: cover;
+    background-image: url(../images/coffee-bgnd.jpg);
+    background-position: center;
+}
+
+.header h1 {
+    margin: 0;
+    text-align: center;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 60px;
+    color: #6fa57d;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+ul {
+    padding-left: 35px;
+}
+
+.main {
+    font-family: "Quicksand", sans-serif;
+}
+

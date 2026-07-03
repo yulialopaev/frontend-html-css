@@ -3,20 +3,21 @@
 
 body {
     margin: 0;
+    background-color: whitesmoke;
 }
 
 .header {
-    height: 388px;
+    height: 400px;
     background-size: cover;
     background-image: url(../images/coffee-bgnd.jpg);
     background-position: center;
 }
 
-.header h1 {
+h1 {
     margin: 0;
     text-align: center;
     font-family: "Covered By Your Grace", cursive;
-    font-size: 60px;
+    font-size: 100px;
     color: #6fa57d;
 }
 
@@ -41,5 +42,9 @@ ul {
 
 .main {
     font-family: "Quicksand", sans-serif;
+}
+
+th, td {
+    padding: 0 20px;
 }
 

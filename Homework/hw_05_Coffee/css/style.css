@@ -1,50 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+
 body {
     margin: 0;
-    background-color: whitesmoke;
+    /*background-image: url(../images/coffee-background.jpg);*/
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    color: #333333
+}
+
+main {
+    margin: 50px auto;
 }
 
 .header {
-    height: 400px;
+    height: 350px;
+    width: 100%;
+    margin: 0 auto;
     background-size: cover;
     background-image: url(../images/coffee-bgnd.jpg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
     margin: 0;
     text-align: center;
     font-family: "Covered By Your Grace", cursive;
-    font-size: 100px;
-    color: #6fa57d;
+    font-size: 85px;
+    /*color: #6fa57d;*/
+    color: #2c1e16;
+
 }
 
 h2 {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    color: #4a3325;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 p {
     font-weight: 400;
     font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+    color: #5a5552;
 }
 
 a {
-    font-weight: 400;
+    padding: 12px 20px;
     font-size: 15px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    display: inline-block;
+    background-color: #8c6a53;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 12px;
 }
 
 ul {
     padding-left: 35px;
 }
 
-.main {
-    font-family: "Quicksand", sans-serif;
-}
-
 th, td {
     padding: 0 20px;
 }
 
+td {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fdfbf9;
+    margin: 0 30px;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    border-spacing: 35px;
+}

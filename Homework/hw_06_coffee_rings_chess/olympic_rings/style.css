@@ -1,0 +1,55 @@
+* {
+    margin: auto;
+}
+div {
+    text-align: center;
+}
+
+.ring {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 12px solid black;
+    display: inline-block;
+    margin: 5px;
+}
+
+#blue {
+    border-color: #0078c8;
+    position: relative;
+z-index: 50;
+}
+
+#black {
+    border-color: #000000;
+    position: relative;
+    z-index: 30;
+}
+
+#red {
+    border-color: #eb334e;
+    position: relative;
+    z-index: 10;
+}
+
+#yellow {
+    border-color: #fcb131;
+    position: relative;
+    z-index: 40;
+}
+
+#green {
+    border-color: #00a651;
+    position: relative;
+    z-index: 20;
+}
+
+#row1 {
+    margin-bottom: -90px;
+    margin-top: 70px;
+}
+
+#row2 {
+    margin-top: -80px;
+}
+

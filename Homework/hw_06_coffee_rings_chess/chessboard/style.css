@@ -1,0 +1,30 @@
+.main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row {
+    display: inline-block;
+}
+
+.white {
+    background-color: #ffce9e;
+    width: 100px;
+    height: 100px;
+    margin-right: -4px;
+}
+
+.black {
+    background-color: #d18b47;
+    width: 100px;
+    height: 100px;
+    margin-right: -4px;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    padding: 10px;
+}

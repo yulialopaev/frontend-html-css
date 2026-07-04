@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+    /*position: relative;*/
 }
 
 .header, .footer {
@@ -22,6 +23,7 @@ body {
 .main {
     background-color: crimson;
     height: 1200px;
+    position: relative;
 }
 
 
@@ -35,10 +37,13 @@ body {
 
 .div1 {
     background-color: yellow;
-    position: fixed;
-    top: 0;
+    /*position: fixed;*/
+    /*position: relative;*/
+    /*position: static;*/
+    position: absolute;
+    top: 30px;
     left: 100px;
-    /*z-index: 100;*/
+    z-index: 600;
 }
 
 .div2 {
@@ -46,9 +51,12 @@ body {
     /*margin-left: -5px;*/
     /*margin-right: -5px;*/
     z-index: 200;
+    position: relative;
 }
 
 .div3 {
     background-color: lightgreen;
+    position: relative;
+    z-index: 300;
 }
 

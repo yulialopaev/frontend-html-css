@@ -11,7 +11,7 @@ body {
     color: #333333
 }
 
-main {
+.main {
     margin: 50px auto;
 }
 
@@ -27,6 +27,7 @@ main {
 
 h1 {
     margin: 0;
+    padding-top: 60px;
     text-align: center;
     font-family: "Covered By Your Grace", cursive;
     font-size: 85px;

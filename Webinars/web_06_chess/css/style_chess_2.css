@@ -1,0 +1,8 @@
+.chessboard {
+    width: 480px;
+    height: 480px;
+    background-image: conic-gradient(black 25%, white 25% 50%, black 50% 75%, white 75% 100%);
+    /*background-position: 0 0;*/
+    background-size: 120px 120px;
+    border: 1px solid black;
+}

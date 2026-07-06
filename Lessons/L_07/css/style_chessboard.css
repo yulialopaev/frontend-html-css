@@ -1,0 +1,19 @@
+table {
+    margin: auto;
+    width: 524px;
+    height: 524px;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+

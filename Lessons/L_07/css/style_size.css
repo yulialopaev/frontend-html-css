@@ -1,0 +1,24 @@
+.div1 {
+    display: inline-block;
+    /*width: 80vw;*/
+    max-width: 800px;
+    min-width: 400px;
+    height: 400px;
+    background-color: bisque;
+    font-size: 24px;
+    margin: 36px;
+    text-align: center;
+}
+
+p {
+    /*font-size: 36px;*/
+    /*font-size: 200%;*/
+    font-size: 1em;
+    /*padding: 1em;*/
+    padding: 1rem;
+    /*margin: 200%;*/
+}
+
+body {
+    text-align: center;
+}

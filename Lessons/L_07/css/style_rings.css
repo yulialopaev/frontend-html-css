@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+.rings-container {
+    position: relative;
+    width: 380px;
+    height: 160px;
+    margin: 50px auto;
+}
+
+.ring {
+    width: 150px;
+    height: 150px;
+    border: 12px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.blue {
+    border-color: #0078c8;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.black {
+    border-color: #000000;
+    top: 0;
+    left: 175px;
+    z-index: 300;
+}
+
+.red {
+    border-color: #eb334e;
+    top: 0;
+    left: 350px;
+    z-index: 500;
+}
+
+.yellow {
+    border-color: #fcb131;
+    top: 70px;
+    left: 85px;
+    z-index: 200;
+}
+
+.green {
+    border-color: #00a651;
+    top: 70px;
+    left: 265px;
+    z-index: 400;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>HW 08 Selectors</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <h1>Путешествие в Рим</h1>
+
+    <p>Этот абзац идёт после h1 и будет выбран селектором h1 ~ p.</p>
+    <p>Этот абзац тоже идёт после h1 на том же уровне.</p>
+</header>
+
+<main class="page">
+
+    <article class="travel-card">
+
+        <figure class="poster">
+            <img alt="Rome city view"
+                 src="https://images.unsplash.com/photo-1552832230-c0197dd311b5">
+
+            <span class="badge badge-back">z-index: 2</span>
+            <span class="badge badge-front">z-index: 3</span>
+        </figure>
+
+        <section class="content">
+            <h2>Почему стоит поехать в Рим</h2>
+
+            <div class="description">
+                <p>
+                    Этот абзац находится внутри div, поэтому его выберет селектор div p.
+                </p>
+
+                <p>
+                    Рим — город, где античная история, архитектура и современная жизнь находятся рядом.
+                </p>
+            </div>
+        </section>
+
+        <section class="actions">
+            <h2>Действия</h2>
+            <button class="btn-primary">Заказать экскурсию</button>
+            <input class="checkbox-trigger" type="checkbox">
+            <button class="btn-delete">Delete tour</button>
+            <button>Обычная кнопка</button>
+            <button class="btn-delete">Delete review</button>
+        </section>
+
+    </article>
+
+</main>
+
+<footer class="site-footer">
+    <p>Учебный пример по CSS-селекторам, z-index и единицам измерения.</p>
+</footer>
+
+</body>
+</html>

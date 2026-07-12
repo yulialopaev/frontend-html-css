@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #ffd5b8;
+}
+
+.green {
+    color: green;
+}
+
+#p1 {
+    font-size: 40px;
+}
+
+.big {
+    font-size: 50px;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#p1 + p {
+    font-weight: bold;
+}
+
+.container p {
+    border: 10px solid black;
+}
+
+.container > p {
+    border: 5px solid crimson;
+}
+
+.big.green {
+    background-color: #66df87;
+}

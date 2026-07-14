@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./images/favicon_google.png" rel="shortcut icon" type="image/x-icon">
+    <title>Homework 09 forms</title>
+</head>
+<body>
+
+<!-- Сделайте HTML файл с формой, в которой нужно ввести в текстовом поле текст вашего запроса, который при нажатии на
+кнопку Submit/Запросить будет передаваться гуглу и там обрабатываться-запрашиваться.
+Хинт - поменяйте action и вместо заглушки поставьте актуальный адрес поисковика и посмотрите как правильно передать в
+него параметр запроса -->
+<img alt="logo_google" src="./images/logo_google.png">
+
+<form action="https://www.google.com/search" autocomplete="on" method="get">
+
+    <input id="query" name="q" placeholder="Кто был первым: яйцо или курица?" required type="text">
+    <button type="submit">Search</button>
+
+</form>
+
+</body>
+</html>

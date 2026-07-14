@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="exam.png" rel="shortcut icon" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <title>L_09 Web Form</title>
+</head>
+<body>
+
+<form action="#" autocomplete="" method="get">
+    <fieldset id="fieldset">
+        <legend>Personal data</legend>
+        <p>
+            <label for="fName">First name*:</label>
+            <input id="fName" name="firstName"
+                   placeholder="Peter" required type="text">
+        </p>
+        <p>
+            <label>Last name:
+                <input id="lName" name="lastName"
+                       placeholder="Smith" type="text"></label>
+        </p>
+
+        <fieldset id="fieldset2">
+            <legend>Contacts</legend>
+            <p>
+                <label>E-mail*:
+                    <input name="email" placeholder="qqq@gmail.com" required type="email">
+                </label>
+            </p>
+
+            <p>
+                <label>Phone*:
+                    <input name="phone" placeholder="050-1234567" required type="tel">
+                </label>
+            </p>
+
+            <p>
+                <label>Number*:
+                    <input max="25" min="5" name="number" placeholder="123" required step="5" type="number">
+                </label>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <label>Password*:
+                <input name="password" placeholder="123456" required type="password">
+            </label>
+        </p>
+
+
+        <p>
+            <label>Male
+                <input name="gender" type="radio" value="male">
+            </label>
+            <label>Female
+                <input name="gender" type="radio" value="female">
+            </label>
+            <label>Other
+                <input name="gender" type="radio" value="other">
+            </label>
+        </p>
+
+        <p> Hobby:
+            <label>reading
+                <input name="reading" type="checkbox">
+            </label>
+            <label>travelling
+                <input name="travelling" type="checkbox">
+            </label>
+            <label>gaming
+                <input name="gaming" type="checkbox">
+            </label>
+        </p>
+
+        <p>
+            <label>Language:
+                <select id="lang1" name="lang">
+                    <option value="en">English</option>
+                    <option value="he">Hebrew</option>
+                    <option value="ru">Russian</option>
+                    <option value="ar">Arabic</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Date of birth:
+                <input id="dob" name="birthdate" type="date">
+            </label>
+        </p>
+        <p>
+            <label>Comment:
+                <textarea cols="30" id="cmt" maxlength="250" minlength="10" name="comment" required
+                          rows="10"></textarea>
+            </label>
+        </p>
+
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+        <button type="button">Next</button>
+        <button type="button">Prev</button>
+        <button onclick="alert('Alarm! Alarm!')" type="button">Alert</button>
+    </fieldset>
+
+</form>
+
+
+</body>
+</html>

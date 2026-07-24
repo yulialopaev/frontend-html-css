@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+
+.jumbotron {
+    height: 35em;
+    background-image: url(../images/jumbotron.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    text-shadow: 0.3em 0.3em 0.3em rgb(0,0,0);
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+}
+
+.jumbotron a {
+    text-shadow: none;
+}
